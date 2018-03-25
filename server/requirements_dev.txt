@@ -1,0 +1,7 @@
+Flask-Script
+rednose==0.4.3
+gunicorn
+pigar
+isort
+nose
+Flask-Testing

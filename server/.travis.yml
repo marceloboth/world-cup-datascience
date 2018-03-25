@@ -1,0 +1,13 @@
+language: python
+python:
+  - "pypy3"
+  - "3.4"
+
+# command to install dependencies
+install:
+  - make req
+# command to run tests
+script: make test
+
+services:
+  - mongodb
